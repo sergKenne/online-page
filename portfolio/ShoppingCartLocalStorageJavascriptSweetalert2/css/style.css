@@ -1,0 +1,39 @@
+
+.card img {
+	height: 150px;
+}
+
+tbody td img {
+	width: 50px;
+	height: 40px;
+
+}
+
+.quantity {
+	margin: 0 3px;
+	padding: 2px 0 8px 0;
+	border: 1px solid #ccc;
+	background-color: #ddd;
+	text-align: center;
+	width: 35px;
+	height: 100%;
+	display: inline-block;
+}
+
+.price {
+	font-size: 1rem;
+	padding-left: 6px;
+}
+
+@media screen and (max-width: 768px) {
+	.card img {
+		height: 130px;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.card img {
+		height: 240px;
+	}
+}
+
