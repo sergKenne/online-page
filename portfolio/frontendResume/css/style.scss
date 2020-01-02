@@ -338,9 +338,7 @@ a {
 	}
 }
 
-.nav-icon-closed {
 
-}
 
 .navbar-nav {
 
@@ -639,6 +637,7 @@ a {
 	color: #000;
 	font-family: "Comfortaa",cursive;
 	font-size: 16px;
+	padding-bottom: 1.2rem;   
 }
 
 
@@ -923,10 +922,7 @@ button:focus {
 		
 		margin: 0 5px;
 
-		&:hover {
-			
-		}
-
+		
 		&--slide-menu {
 			text-align: left;
 		}

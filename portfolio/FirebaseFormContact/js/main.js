@@ -108,6 +108,7 @@ function getData() {
 
 
 document.querySelector(".getForm").addEventListener("click", function(){
+	document.getElementById("headTitle").innerHTML = "Email Us";
 	this.classList.add("active");
 	document.querySelector(".getEmail").classList.remove("active");
 
@@ -118,6 +119,8 @@ document.querySelector(".getForm").addEventListener("click", function(){
 
 
 document.querySelector(".getEmail").addEventListener("click", function(){ 
+
+	document.getElementById("headTitle").innerHTML = "List of Emails";
 
 	this.classList.add("active");
 	document.querySelector(".getForm").classList.remove("active");
