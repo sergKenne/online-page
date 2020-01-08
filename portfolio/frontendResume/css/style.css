@@ -269,8 +269,8 @@ a {
     margin-top: 3rem;
     overflow: hidden; }
     .content__view-portofolio:hover .fa-angle-double-down {
-      animation: move  3s linear infinite;
-      -webkit-animation: move  3s linear infinite; }
+      animation: none;
+      -webkit-animation: none; }
     .content__view-portofolio:hover .box-1 {
       -webkit-transform: translateY(0%);
       -moz-transform: translateY(0%);
@@ -322,6 +322,10 @@ a {
   .content__portofolio-icon {
     margin-bottom: 0;
     color: #f2f2f2; }
+
+.fa-angle-double-down {
+  animation: move  3s linear infinite;
+  -webkit-animation: move  3s linear infinite; }
 
 @keyframes move {
   0% {

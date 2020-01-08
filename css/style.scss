@@ -448,8 +448,8 @@ a {
 	    //border: 2px solid #fff;
 
 	    &:hover .fa-angle-double-down {
-	    	animation: move  3s linear infinite;
-	    	-webkit-animation: move  3s linear infinite;
+	    	animation: none;
+	    	-webkit-animation: none;
 
 	    }
 
@@ -491,6 +491,13 @@ a {
 		margin-bottom: 0;
 		color: rgb(242, 242, 242)
 	}
+}
+
+
+.fa-angle-double-down {
+	animation: move  3s linear infinite;
+	-webkit-animation: move  3s linear infinite;
+
 }
 
 
