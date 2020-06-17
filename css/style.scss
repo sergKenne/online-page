@@ -109,8 +109,7 @@ a {
 
 
 #page {
-	max-width: 2124px;
-	//max-width: 1800px;
+	//max-width: 2124px;
 	margin: 0 auto;
 	overflow: hidden;
 	//position: relative;
@@ -770,7 +769,7 @@ button:focus {
 	@include box-shadow(0 10px 10px -10px rgba(0, 0, 0, 0.35) ); 
 
 	@media screen and (max-width: 768px) {
-	 	padding-bottom: 10px;
+	 	padding-bottom: 60px;
 	}
 
 	

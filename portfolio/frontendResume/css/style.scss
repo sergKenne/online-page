@@ -206,6 +206,7 @@ a {
 
 .header {
 	//border: 2px solid red;
+	position: relative;
 	width: 100%;
 	margin: 0 auto ;
 	overflow: hidden;
@@ -767,7 +768,7 @@ button:focus {
 	@include box-shadow(0 10px 10px -10px rgba(0, 0, 0, 0.35) ); 
 
 	@media screen and (max-width: 768px) {
-	 	padding-bottom: 10px;
+	 	padding-bottom: 60px;
 	}
 
 	
